@@ -39,7 +39,7 @@ class Triangle
 
   class TriangleError < StandardError
     def message
-    puts "Ya need to research ya maths!"
+    puts "One or more conditions has not been met. Make sure that your triangle is valid."
     end
   end
 end
